@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "theme/colors.scss";
+
+* {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  letter-spacing: 0.1px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  background-color: var(--primary_color);
+}
+
+main {
+  position: absolute;
+}
+
+section {
+  background-color: var(--white_color);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+  overflow: hidden;
+  /* padding: 20px; */
+}
+
+.row > * {
+  padding: 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* This styles the scrollbar track */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+  background-color: transparent; /* Background of the scrollbar track */
+}
+
+/* This styles the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: var(--primary_color); /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+  border: 1px solid #f5f5f5; /* Creates padding around the scrollbar thumb */
+}
+
+/* This styles the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(49, 42, 114); /* Darkens the scrollbar thumb on hover */
+}
+/* Add this to your CSS file */
+.card-hover-effect::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  
+  transition: border-color 0.3s;
+  background: linear-gradient(45deg, #3b82f6);
+}
+
+.card-hover-effect:hover::before {
+  border-color: #3b82f6; /* This is the Tailwind blue-500 color */
+}

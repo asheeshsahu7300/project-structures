@@ -1,0 +1,65 @@
+{/* <Route element={<ForgotPassword />} path="/forgot-password" /> */}
+
+        {/* Admin Routes */}
+        {/* <Route element={<OnboardingHome />} path="onboard" />
+        <Route element={<CreatePassword />} path="set-password" />
+        <Route element={<SoloOrCoAdmin />} path="solo-or-co-admin" />
+        <Route element={<InviteCoAdmin />} path="invite-co-admin" />
+        <Route element={<InviteProductOwner />} path="invite-product-owner" />
+        <Route
+          element={<CoAdminCreatePassword />}
+          path="co-admin-create-password"
+        />
+        <Route element={<AdminWelcomeScreen />} path="admin-welcome-screen" />
+        <Route element={<AdminLocalSettings />} path="admin-local-settings" />
+        <Route element={<AdminTimeSettings />} path="admin-time-settings" />
+        <Route
+          element={<AdminPrivacyAndSecuritySettings />}
+          path="admin-privacy-and-security-settings"
+        />
+        <Route element={<AdminGlobalSettings />} path="admin-global-settings" />
+        <Route
+          element={<AdminManageAccessSettings />}
+          path="admin-manage-access-settings"
+        />
+        <Route
+          element={<AdminEntityAndSetupList />}
+          path="admin-entity-and-setup-list"
+        />
+        <Route
+          element={<AdminEntityAndBranchDetailedView />}
+          path="/admin-entity-and-setup-list/spchopra"
+        ></Route>
+        <Route
+          element={<OrganisationAndStructureMaster />}
+          path="/organisation-structure-master"
+        ></Route>
+        <Route
+          element={<ManageDesignationAndLevel />}
+          path="/manage-designation-and-level"
+        ></Route>
+        <Route
+          element={<OrgStructureServiceLine />}
+          path="/org-structure-service-line"
+        ></Route> */}
+
+        {/* <Route
+          element={<EngagementContractTemplate />}
+          path="/manage-engagement/template"
+        ></Route>
+        <Route
+          element={<EngagementContractingAndBilling />}
+          path="/manage-engagement/contracting-and-billing"
+        ></Route>
+        <Route
+          element={<EngagementContractDetails />}
+          path="/manage-engagement/details"
+        ></Route>
+        <Route
+          element={<EngagementContractBilling />}
+          path="/manage-engagement/billing"
+        ></Route>
+        <Route
+          element={<EngagementContractReview />}
+          path="/manage-engagement/review"
+        ></Route> */}
